@@ -1,7 +1,28 @@
-.button{
+body {
+  margin: 0;
+}
+.coins__inner{
+    padding: 100px;
+}
+.coins__inner__item{
+    display: flex;
+}
+
+/* value */
+.value--pink{
+    margin: auto 0;
     width: 100px;
     height: 30px;
+}
+/* button */
+.button--pink {
+  width: 100px;
+  height: 30px;
 
-    background-color: pink;
-    border: 1px solid rgb(250, 166, 180);
+  margin-left: 20px;
+
+  background-color: pink;
+  border: 1px solid rgb(250, 166, 180);
+  border-radius: 5px;
+  outline: 0;
 }
